@@ -11,9 +11,9 @@ We'll have a simple coffee shop art selection. Coffee shops will be stored, the 
 
 First we'll store shops. Then we'll store art, that has shops it is associated with. Finally, we'll store artists, and associate them with art work.
 
-Shops - name, location, hours
-Artists - name, list of artwork
-Artwork - artwork name, shop listed
+Shops - name, location, hours  
+Artists - name, list of artwork  
+Artwork - artwork name, shop listed  
 
 ## API
 
@@ -28,10 +28,10 @@ All results will follow this JSON structure:
 }
 ```
 
-GET
-/api/v1/shops
-/api/v1/shops/zip/:zipcode
-/api/v1/shops/nearme (POST lat/lon)
+GET  
+/api/v1/shops  
+/api/v1/shops/zip/:zipcode  
+/api/v1/shops/nearme (POST lat/lon)  
 ```
 {
   "shops": [
